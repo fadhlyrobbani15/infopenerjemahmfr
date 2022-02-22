@@ -38,18 +38,19 @@ const Kontak = () => {
                 </div> 
             </div>
             <div className='contactForm'>
-                    <form action='#'>
+                    <form action='/contact' name='contact' method='post'>
+                        <input type='hidden' name='form-name' value='contact' />
                         <h2>Kirim Pesan</h2>
                         <div className='inputBox'>
-                            <input type='text' name='name' required/>
+                            <input type='text' name='name' id='name' required/>
                             <span>Nama Lengkap</span>
                         </div>
                         <div className='inputBox'>
-                            <input type='text' name='email' required/>
+                            <input type='text' name='email' id='email' required/>
                             <span>Email</span>
                         </div>
                         <div className='inputBox'>
-                            <textarea type='text' name='message' required/>
+                            <textarea type='text' name='message' id='message' required/>
                             <span>Pesan Anda....</span>
                         </div>
                         <div className='inputBox'>
