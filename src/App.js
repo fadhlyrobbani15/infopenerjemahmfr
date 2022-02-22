@@ -8,6 +8,8 @@ import Layanan from './components/Layanan/Layanan';
 import Sidebar from './components/Sidebar/Sidebar';
 import Kontak from './components/Kontak/Kontak';
 import Document from './components/Document/Document';
+import Whatsapp from './components/Whatsapp/Whatsapp';
+import Gallery from './components/Gallery/Gallery';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,8 +25,10 @@ function App() {
       <About/>
       <Document/>
       <Layanan/>
+      <Gallery/>
       <Kontak/>
       <Footer/>
+      <Whatsapp/>
     </Router>
   );
 }

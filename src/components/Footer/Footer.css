@@ -34,6 +34,25 @@ footer{
     word-spacing: 2px;
     text-transform: capitalize;
 }
+.bottom-container{
+    background-color: #101d2c;
+    padding: 50px 10px 20px 0;
+    text-align: center;
+
+}
+.footer-bottom p{
+    color: #fff;
+}
+.footer-bottom i{
+    padding: 20px;
+    font-size: 20px;
+}
+.footer-bottom i:hover{
+    color: #c69963;
+    opacity: 0.5;
+    font-size: 20px;
+    transition: 0.5s;
+}
 @media screen and (max-width: 768px){
     footer .footer-content h3{
         font-size: 25px;
