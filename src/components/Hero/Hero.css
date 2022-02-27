@@ -16,16 +16,16 @@
     color: #fff;
 }
 .content h1{
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom: 20px;
 }
 .content p{
-    font-size: 20px;
-    padding: 25px 0;
+    font-size: 15px;
+    padding: 15px 0;
     font-weight: 300;
 }
 .content .btn-group{
-    margin-top: 45px;
+    margin-bottom: 15px;
 }
 .content button{
     display: inline-block;
