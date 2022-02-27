@@ -17,24 +17,35 @@
 }
 .layanan .content h2{
     font-size: 25px;
-    margin-top: 80px;
+    margin-top: 100px;
+
 }
 .layanan .content p{
     font-size: 15px;
-    
+    font-weight: 200;
 }
 .content p{
     font-weight: 300;
     padding: 25px 0;
+    
 }
 .layanan p {
     line-height: 1.6;
-    margin: 10px 0;
     margin-right: 20px;
+    
 }
 
 @media screen and (max-width: 768px) {
     .layanan {
         font-size: 10px;
+    }
+    .layanan .content h2{
+        font-size: 25px;
+    }
+    .layanan .content p{
+        font-size: 15px;
+        margin-bottom: 60px;
+        margin-right: 55px;
+        font-weight: 200;
     }
 }
